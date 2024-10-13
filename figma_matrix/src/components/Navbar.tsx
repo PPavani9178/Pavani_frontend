@@ -145,7 +145,8 @@ const Navbar: React.FC = () => {
                   hover:bg-[#76dfff] hover:text-gray-800 
                   hover:shadow-[0px_0px_5px_3px_rgba(76,221,253,1),
                                 0px_1px_2px_0px_rgba(76,221,253,1)] 
-                  text-[16px] font-medium leading-[20px] tracking-[-0.16px] text-center rounded-[12px] pt-[12px] pr-[24px] pb-[12px] pl-[24px] 
+                  text-[16px] font-medium leading-[20px] tracking-[-0.16px] text-center 
+                  rounded-[12px] pt-[12px] pr-[24px] pb-[12px] pl-[24px] 
                   transition-all duration-200 ease-in-out "
                 >
                   Whitepaper
