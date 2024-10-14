@@ -1,18 +1,10 @@
 import React from "react";
-import "./styles/ThirdSectionStyle.css";
 import { BiBarChart } from "react-icons/bi";
 import { FaScrewdriverWrench } from "react-icons/fa6";
 import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiRobot2Fill } from "react-icons/ri";
-
+import "./styles/ThirdSectionStyle.css";
 const ThirdSection: React.FC = () => {
-  
-  //   <div className="h-[684px] mt-[72px] sm:h-[1106px] sm:mt-[44px]" id="one">
-  //     <h3 className="text-white font-medium text-[40px] leading-10 mt-[24px] ">About EthAi</h3>
-  //     <p className="text-white  mt-[20px] ml-[368.5px] mr-[368.5px] text-[16px] leading-[24px] text-center w-[703px] h-[48px] " id="para1">At EthAi, we’re all about making crypto trading easier and more intuitive. We provide tools that help traders keep up with all new market trends, track top traders’ movements.</p>
-  //   </div>
-    
-  
   return (
     <>
       <div className="h-auto pb-[50px] top-[24px] flex flex-col items-center gap-6 mt-[42px]">
@@ -50,7 +42,7 @@ const ThirdSection: React.FC = () => {
 
         <div className="main w-[60%]   rounded-[20px] bg-AboutEthAiColor mt-[40px] p-6">
           <div className="about flex  flex-wrap items-start justify-center">
-            
+            {/* Section 1 */}
             <div className="flex flex-col items-start justify-start lg:w-1/2 p-8 gap-[12px] smallBox">
               <div>
                 <BiBarChart
@@ -65,7 +57,6 @@ const ThirdSection: React.FC = () => {
               </p>
             </div>
 
-            {/* Section 2 */}
             <div className="flex flex-col items-start justify-start lg:w-1/2 p-6 gap-[12px] smallBox">
               <div>
                 <MdAccountBalanceWallet
@@ -80,7 +71,6 @@ const ThirdSection: React.FC = () => {
               </p>
             </div>
 
-            {/* Section 3 */}
             <div className="flex flex-col items-start justify-start lg:w-1/2 p-6 gap-[12px] ">
               <div>
                 <FaScrewdriverWrench
@@ -116,6 +106,5 @@ const ThirdSection: React.FC = () => {
     </>
   );
 };
-
 
 export default ThirdSection;
